@@ -1,0 +1,20 @@
+ALGORITHM sihem
+VAR
+    c: char;
+    nc: integer:=0;
+    nv: integer:=0;
+    nw: integer:=0;
+BEGIN
+REPEAT
+    write("entrer un caractere:");
+    read(c);
+    nc=nc+1;
+    if (c=="a" or c="e" or c="i" or c="u" or c="A" or c="E" or c="I" or c="o" or c="v" or c="y")
+    nv=nv+1
+    else 
+    if (c='')
+    nw=nw+1;
+    end if
+UNTIL (c<>".")
+write("the number of caracter",nc,"the number of word",nw,"the number of voyelle",nv);
+END
